@@ -1,0 +1,18 @@
+.container {
+	position: absolute;
+	top: 5px;
+	right: 30px;
+	display: flex;
+	gap: 15px;
+
+	.language_item {
+		color: #ffffff;
+		font-size: 13px;
+		cursor: pointer;
+		user-select: none;
+
+		&.active {
+			text-decoration: underline;
+		}
+	}
+}

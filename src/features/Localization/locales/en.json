@@ -1,0 +1,16 @@
+{
+	"main.title": "Horoscope for today",
+
+	"zodiac.aries": "Aries",
+	"zodiac.taurus": "Taurus",
+	"zodiac.gemini": "Gemini",
+	"zodiac.cancer": "Cancer",
+	"zodiac.leo": "Leo",
+	"zodiac.virgo": "Virgo",
+	"zodiac.libra": "Libra",
+	"zodiac.scorpio": "Scorpio",
+	"zodiac.sagittarius": "Sagittarius",
+	"zodiac.capricorn": "Capricorn",
+	"zodiac.aquarius": "Aquarius",
+	"zodiac.pisces": "Pisces"
+}

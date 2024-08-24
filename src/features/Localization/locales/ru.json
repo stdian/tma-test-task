@@ -1,0 +1,16 @@
+{
+	"main.title": "Гороскоп на сегодня",
+
+	"zodiac.aries": "Овен",
+	"zodiac.taurus": "Телец",
+	"zodiac.gemini": "Близнецы",
+	"zodiac.cancer": "Рак",
+	"zodiac.leo": "Лев",
+	"zodiac.virgo": "Дева",
+	"zodiac.libra": "Весы",
+	"zodiac.scorpio": "Скорпион",
+	"zodiac.sagittarius": "Стрелец",
+	"zodiac.capricorn": "Козерог",
+	"zodiac.aquarius": "Водолей",
+	"zodiac.pisces": "Рыбы"
+}
