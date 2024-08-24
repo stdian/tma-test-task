@@ -1,4 +1,5 @@
-import { SDKProvider } from "@telegram-apps/sdk-react";
+import { SDKProvider, postEvent } from "@telegram-apps/sdk-react";
+import { useEffect } from "react";
 
 import { EnvironmentTypes, environmentEnv } from "features/Environment";
 import {
@@ -8,6 +9,10 @@ import {
 import { Router } from "features/Router";
 
 const App = () => {
+	useEffect(() => {
+		postEvent("web_app_expand");
+	});
+
 	return (
 		<SDKProvider debug={environmentEnv !== EnvironmentTypes.Production}>
 			<LocalizationProvider>

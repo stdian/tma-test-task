@@ -17,7 +17,7 @@ const ZodiacItem = () => {
 	const navigate = useNavigate();
 	const { formatMessage } = useIntl();
 	const userDataLanguage = useSelector(selectUserDataLanguage);
-	const [backButton] = initBackButton();
+	const [backButton, cleanup] = initBackButton();
 	const [horoscope, setHoroscope] = useState<string>("");
 
 	const handlers = useSwipeable({
@@ -51,8 +51,9 @@ const ZodiacItem = () => {
 
 		return () => {
 			backButton.hide();
+			cleanup();
 		};
-	}, [backButton, handleBack]);
+	}, []);
 
 	useEffect(() => {
 		(async () => {
